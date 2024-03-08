@@ -45,24 +45,24 @@ public class CustomList extends ArrayAdapter<City> {
 
     }
 
-    public int getCount(){
-        return cities.size();
-    }
+//    public int getCount(){
+//        return cities.size();
+//    }
+//
+//    public void addCity(City city){
+//        cities.add(city);
+//    }
 
-    public void addCity(City city){
-        cities.add(city);
-    }
-
-    public boolean hasCity(City city) {
-        return cities.contains(city);
-    }
-    public void delete(City city) {
-        if (!cities.contains(city)) {
-            throw new IllegalArgumentException();
-        }
-        else {
-            cities.remove(city);
-        }
-    }
+//    public boolean hasCity(City city) {
+//        return cities.contains(city);
+//    }
+//    public void delete(City city) {
+//        if (!cities.contains(city)) {
+//            throw new IllegalArgumentException();
+//        }
+//        else {
+//            cities.remove(city);
+//        }
+//    }
 
 }
