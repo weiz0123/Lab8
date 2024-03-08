@@ -56,13 +56,13 @@ public class CustomList extends ArrayAdapter<City> {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
-//    public void delete(City city) {
+    public void delete(City city) {
 //        if (!cities.contains(city)) {
 //            throw new IllegalArgumentException();
 //        }
 //        else {
 //            cities.remove(city);
 //        }
-//    }
+    }
 
 }
