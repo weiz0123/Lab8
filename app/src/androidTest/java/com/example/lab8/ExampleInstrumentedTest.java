@@ -37,7 +37,7 @@ public class ExampleInstrumentedTest {
         list.addCity(new City("Estevan", "SK"));
         assertEquals(list.getCount(),listSize + 1);
     }
- /*
+
 
     @Test
     public void testHasCity() {
@@ -66,6 +66,6 @@ public class ExampleInstrumentedTest {
         assertEquals(1, list.getCount());
         list.delete(city);
         assertEquals(0, list.getCount());
-    }*/
+    }
 
 }
