@@ -28,14 +28,14 @@ public class CustomListTest {   private CustomList list;
     assertEquals(list.getCount(),listSize + 1);
   }
 
-//  @Test
-//  public void testHasCity() {
-//    list = MockCityList();
-//    City city = new City("Edmonton", "AB");
-//    assertFalse(list.hasCity(city));
-//    list.addCity(city);
-//    assertTrue(list.hasCity(city));
-//  }
+  @Test
+  public void testHasCity() {
+    list = MockCityList();
+    City city = new City("Edmonton", "AB");
+    assertFalse(list.hasCity(city));
+    list.addCity(city);
+    assertTrue(list.hasCity(city));
+  }
 //
 //  @Test
 //  public void testDeleteCity() {
